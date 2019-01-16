@@ -4,6 +4,6 @@ def line(array)
     puts "The line is currently empty."
     elsif array.length > 0 
     array.each_with_index do |name, index|
-    puts "The line is currently: 1. #{array.join( array[1, -1] )}"
+    puts "The line is currently: #{index} #{name}"
   end
 end
