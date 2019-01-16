@@ -6,7 +6,7 @@ def line(array)
     line_array = []
     array.each.with_index(1) do |name, index|
      line_array << "#{index}: #{name}"
-     puts "The line is currently: line_array.join(" ")"
+     puts "The line is currently: #{line_array.join(" ")}"
   end
   end
 end
