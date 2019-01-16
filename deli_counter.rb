@@ -3,6 +3,6 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
     elsif array.length > 0 
-    puts "The line is currently: 1. #{array.join(" 2. ")}"
+    puts "The line is currently: 1. #{array.join( array )}"
   end
 end
